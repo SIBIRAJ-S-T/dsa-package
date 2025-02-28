@@ -142,4 +142,4 @@ def print_example_outputs():
     print("Merge Sort:", merge_sort(arr))
     print("Majority Element:", majority_element([3, 3, 4, 2, 4, 4, 2, 4, 4]))
     print("Merge Intervals:", merge_intervals([[1, 3], [2, 6], [8, 10], [15, 18]]))
-    )"""
+    """)
