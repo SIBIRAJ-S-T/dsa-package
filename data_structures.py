@@ -127,6 +127,7 @@ def merge_intervals(intervals):
 
 # 📌 12. Function to Print Example Outputs
 def print_example_outputs():
+    print("""
     arr = [1, -2, 3, 4, -1, 2, 1, -5, 4]
     target = 7
 
@@ -141,3 +142,4 @@ def print_example_outputs():
     print("Merge Sort:", merge_sort(arr))
     print("Majority Element:", majority_element([3, 3, 4, 2, 4, 4, 2, 4, 4]))
     print("Merge Intervals:", merge_intervals([[1, 3], [2, 6], [8, 10], [15, 18]]))
+    )"""
