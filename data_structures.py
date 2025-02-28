@@ -127,6 +127,22 @@ def merge_intervals(intervals):
 
 # 📌 12. Function to Print Example Outputs
 def print_example_outputs():
+    arr = [1, -2, 3, 4, -1, 2, 1, -5, 4]
+    target = 7
+
+    print("Prefix Sum:", prefix_sum(arr))
+    print("Suffix Sum:", suffix_sum(arr))
+    print("Two Pointers (Sum 7):", two_pointers(arr, target))
+    print("Sliding Window (Max sum of 3 elements):", sliding_window(arr, 3))
+    print("Max Subarray Sum:", max_subarray_sum(arr))
+    print("Binary Search (index of 3):", binary_search(arr, 3))
+    print("Dutch National Flag:", dutch_national_flag([2, 0, 1, 2, 1, 0]))
+    print("Rotate Array (2 positions):", rotate_array(arr, 2))
+    print("Merge Sort:", merge_sort(arr))
+    print("Majority Element:", majority_element([3, 3, 4, 2, 4, 4, 2, 4, 4]))
+    print("Merge Intervals:", merge_intervals([[1, 3], [2, 6], [8, 10], [15, 18]]))
+    print()
+    print()
     print("""
     arr = [1, -2, 3, 4, -1, 2, 1, -5, 4]
     target = 7
